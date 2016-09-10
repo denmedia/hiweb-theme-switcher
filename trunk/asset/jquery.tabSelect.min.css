@@ -1,0 +1,49 @@
+#hw_theme_switcher_post_types { display : none; }
+
+#hw_theme_switcher_post_types_tabs {
+}
+
+#hw_theme_switcher_post_types_tabs span {
+	display               : inline-block;
+	font-weight           : normal;
+	letter-spacing        : 1px;
+	text-decoration       : none;
+	padding               : 2px;
+	padding-left          : 4px;
+	padding-right         : 4px;
+	padding-bottom        : 1px;
+	margin                : 3px 6px 3px 0;
+	cursor                : hand;
+	cursor                : pointer;
+	text-shadow           : 0 1px 1px rgba(0, 0, 0, .3);
+	-webkit-border-radius : .2em;
+	-moz-border-radius    : .2em;
+	border-radius         : .2em;
+	-webkit-box-shadow    : 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow       : 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow            : 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#hw_theme_switcher_post_types_tabs span.active {
+	background : #00aeff;
+	color      : #fff;
+	border     : 1px #0075ab solid;
+}
+
+#hw_theme_switcher_post_types_tabs span.active:hover {
+	background : #0073aa;
+	color      : #fff;
+	border     : 1px #005c87 solid;
+}
+
+#hw_theme_switcher_post_types_tabs span.inactive {
+	background : #eee;
+	color      : #999;
+	border     : 1px #ddd solid;
+}
+
+#hw_theme_switcher_post_types_tabs span.inactive:hover {
+	background : #bbb;
+	color      : #fff;
+	border     : 1px #888 solid;
+}
